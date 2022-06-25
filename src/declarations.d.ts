@@ -39,3 +39,4 @@ declare module "*.svg" {
 }
 
 declare module "@jbblt/angular-mfe";
+declare module "@jbblt/utility";

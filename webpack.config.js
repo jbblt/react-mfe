@@ -9,7 +9,7 @@ module.exports = (webpackConfigEnv, argv) => {
     argv,
   });
   return merge(defaultConfig, {
-    externals: ["@jbblt/angular-mfe"],
+    externals: ["@jbblt/angular-mfe", "@jbblt/utility"],
     // modify the webpack config however you'd like to by adding to this object
   });
 };
